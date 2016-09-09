@@ -8,3 +8,7 @@ end
 get "/about" do
 	"<p>The about page tells me soo much</p>"
 end
+
+get "/roll-die" do
+	"Your die roll is #{rand(1..6)}"
+end
