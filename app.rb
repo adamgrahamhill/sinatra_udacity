@@ -28,3 +28,8 @@ get "/square/:num" do
   	"#{params[:num]} is not something you can square. Try entering a number!"
   end
 end
+
+#HTML response
+get "/best-route" do
+  "<h3>I love <a href='http://www.sinatrarb.com'>Sinatra</a></h3>"
+end
