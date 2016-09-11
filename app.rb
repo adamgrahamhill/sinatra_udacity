@@ -1,8 +1,7 @@
 require 'sinatra'
 
 get "/" do
-	puts "You requested the root path"
-	"<h1>test header</h1>"
+  erb :home
 end
 
 get "/about" do
